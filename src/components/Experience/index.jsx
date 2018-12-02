@@ -1,4 +1,4 @@
-import Reach from 'react';
+import React from 'react';
 import './index.css';
 
 export default function Experience() {
