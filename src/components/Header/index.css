@@ -1,0 +1,15 @@
+.icon {
+    border-radius: 50%;
+    height: 136px;
+    width: 136px;
+}
+
+.header-description-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-description-title {
+    font-size: 20px;
+    font-weight: 600;
+}
