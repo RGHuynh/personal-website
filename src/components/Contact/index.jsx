@@ -5,9 +5,22 @@ export default function Contact() {
     return(
         <section>
             <form>
-                <input type="text" value="name" />
-                <input type="text" value="Enter Email" />
-                <input type="text" value="Your Message"/>
+                <div className="form-group">
+                    <label>Name</label>
+                    <input className="form-control" type="text" value="name" />
+                </div>
+
+                <div className="form-group">
+                    <label>Email</label>
+                    <input className="form-control" type="text" value="Enter Email" />
+                </div>
+
+                
+                <div className="form-group">
+                    <label>Message</label>
+                    <textarea className="form-control" type="text" row="5" value="Your Message"></textarea>
+                </div>
+                
                 <input type="buttone" />
             </form>
         </section>
