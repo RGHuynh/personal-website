@@ -22,7 +22,12 @@
     font-weight: bold;
 }
 
+.header-description-name, .header-description-title {
+    margin: 0;
+}
+
 .header-description-title {
+    margin-top: .4rem;
     font-size: 20px;
     font-weight: 600;
 }
