@@ -1,9 +1,13 @@
-.portfolio {
-    padding-top: 2.5rem;
-    padding-bottom: 4.875rem;
+.mastHead {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.portfolio {
+    padding-top: 2.5rem;
+    padding-bottom: 4.875rem;
+    color: white;
 }
 
 .icon {
@@ -13,6 +17,7 @@
 }
 
 .header-description-name {
+    padding-top: .4rem;
     font-size: 24px;
     font-weight: bold;
 }

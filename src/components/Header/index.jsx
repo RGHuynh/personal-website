@@ -6,10 +6,10 @@ import './index.css';
 
 export default function Header() {
     return(
-        <header >
+        <header className="mastHead" style={{backgroundImage: `url(${Background1})`}}>
             <Navigation />
             <div className="container">
-                <div className="portfolio" style={{backgroundImage: `url(${Background1})`}}>
+                <div className="portfolio">
                     <img className="icon" src={ProfilePic}></img>
                         <div className="header-description">
                             <h1 className="header-description-name">Randall Huynh</h1>
