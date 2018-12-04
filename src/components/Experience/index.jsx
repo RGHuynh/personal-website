@@ -1,16 +1,21 @@
 import React from 'react';
 import ReactJsIcon from '../../images/reactjs.svg';
+
+import ContentSection from './ContentSection'
 import './index.css';
 
 export default function Experience() {
     return(
         <section>
-            
-            <div className="exp-wrap">
-                <img className="exp-icon" src={ReactJsIcon}></img>
-                <h1 className="exp-title">Reactjs</h1>
-            </div>
-            
+                <ContentSection 
+                    icon={ReactJsIcon}
+                    title="ReactJS"
+                />
+
+                <ContentSection 
+
+                />
+
             <div>NodeJS</div>
             <div>PostgreSQL</div>
         </section>
