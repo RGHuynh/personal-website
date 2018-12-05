@@ -4,7 +4,7 @@ import './index.css';
 
 export default function Project() {
     return(
-        <section className="project" style={{backgroundImage: `url(${BackgroundImage2})`}}>
+        <section className="project-container" style={{backgroundImage: `url(${BackgroundImage2})`}}>
             <h1 className="project-title__color title">PROJECTS</h1>
             <div>image</div>
             <h2>Random Restaurant</h2>

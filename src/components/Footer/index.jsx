@@ -3,7 +3,7 @@ import './index.css';
 
 export default function Footer() {
     return(
-        <footer>
+        <footer className="footer-container">
             footer
         </footer>
     );
