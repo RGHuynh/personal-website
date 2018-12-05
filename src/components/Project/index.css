@@ -1,0 +1,20 @@
+.project {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    height: 100%;
+}
+
+.title {
+    margin: 0;
+}
+.title {
+    font-size: 20px;
+    padding-top: 4rem;
+    font-weight: 600;
+}
+
+.project-title__color {
+    color: white;
+}

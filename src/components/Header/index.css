@@ -1,0 +1,33 @@
+.mastHead {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.portfolio {
+    padding-top: 2.5rem;
+    padding-bottom: 4.875rem;
+    color: white;
+}
+
+.icon {
+    border-radius: 50%;
+    height: 136px;
+    width: 136px;
+}
+
+.header-description-name {
+    padding-top: .4rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-description-name, .header-description-title {
+    margin: 0;
+}
+
+.header-description-title {
+    margin-top: .4rem;
+    font-size: 20px;
+    font-weight: 600;
+}
