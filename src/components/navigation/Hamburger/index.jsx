@@ -40,15 +40,15 @@ export default class Hamburger extends Component {
     render(){
         return(
             <div>
-                <button className={"hamburger hamburger--collapse " + this.state.buttonStatus} type="button" onClick={this.changeClicked}>
+                <button className={"menu-toggle hamburger hamburger--collapse " + this.state.buttonStatus} type="button" onClick={this.changeClicked}>
                     <span className="hamburger-box">
                         <span className="hamburger-inner"></span>
                     </span>
                 </button>
 
-                <Sidebar pose={this.state.clicked ? 'open' : 'closed'}>
-                    <ul>
-                        <NavItem>
+                <Sidebar className="sidebar-wrapper" pose={this.state.clicked ? 'open' : 'closed'}>
+                    <ul className="sidebar-nav">
+                        <NavItem className="sidebar-nav-item">
                             <a>thes</a>
                         </NavItem>
                     </ul>
