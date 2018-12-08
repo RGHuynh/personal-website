@@ -49,8 +49,14 @@ export default class Hamburger extends Component {
                 <Sidebar className="sidebar-wrapper" pose={this.state.clicked ? 'open' : 'closed'}>
                     <ul className="sidebar-nav">
                         <NavItem className="sidebar-nav-item">
-                            <a>thes</a>
+                            <a>Experiences</a>
                         </NavItem>
+                        <NavItem className="sidebar-nav-item">
+                            <a>Projects</a>
+                        </NavItem>
+                        <NavItem className="sidebar-nav-item">
+                            <a>Contact</a>
+                        </NavItem>''
                     </ul>
                 </Sidebar>
             </div>
