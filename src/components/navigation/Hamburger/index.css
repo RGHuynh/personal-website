@@ -1,13 +1,13 @@
 .sidebar-wrapper {
     position: fixed;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     z-index: 2;
     top: 0px;
     left: 0;
     width: 250px;
     height: 100%;
-    background: #1D809F;
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgb(47, 126, 131);
+    /* border-left: 1px solid rgba(255, 255, 255, 0.1); */
 }
 
 .sidebar-nav {

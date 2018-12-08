@@ -19,9 +19,11 @@ class Navigation extends Component{
 
   render(){
     return(
-      <nav className="navbar navbar-expand-lg navbar-dark navbar__color navbar--size">
+      <div >
         <HamburgerStack activeButton={this.state.activeButton}/>
-      </nav>
+        <nav className="navbar navbar-expand-lg navbar--size">
+        </nav>
+      </div>
     );
   }
 }

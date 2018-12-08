@@ -1,10 +1,5 @@
-.navbar__color {
-    background-color: rgb(13, 125, 132)
-}
-
-.hamburgerStack {
-    border: 1px solid black;
-    width: 50px;
+.navbar--size {
+    position: relative;
     height: 50px;
 }
 
