@@ -1,9 +1,10 @@
 import React from 'react';
+import ContactBg from '../../images/contactBG.svg'
 import './index.css';
 
 export default function Contact() {
     return(
-        <section className="contact-container">
+        <section className="contact-container" style={{backgroundImage: `url(${ContactBg})`}}>
             <div className="container">
                 <form>
                     <div className="form-group">
