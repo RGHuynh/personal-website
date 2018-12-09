@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import posed from 'react-pose'
-import Navigation from '../Navigation';
+import Navigation from '../Navigate';
 import ProfilePic from '../../images/profile.jpeg';
 import Background1 from '../../images/background1.svg';
 import './index.css';
