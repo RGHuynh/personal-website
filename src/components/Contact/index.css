@@ -1,5 +1,38 @@
 .contact-container {
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
+    background-size: cover;
+    background-position: center;
+    height: 408px;
+}
+
+.contact-form-title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 4rem;
+}
+
+.contract-wrapper {
+    margin-top: 1.3rem;
+}
+
+.form__color {
+    background-color: #007D85;
+    border: 1px transparent;
+}
+
+.form__color::placeholder {
+    color: #FFFFFF;
+}
+
+.form__color:-ms-input-placeholder {
+    color: #FFFFFF;
+}
+
+.form__color::-ms-input-placeholder {
+    color: #FFFFFF;
+}
+
+.form__color:focus {
+    background-color: #007D85;
 }

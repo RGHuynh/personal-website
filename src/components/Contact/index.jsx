@@ -5,22 +5,20 @@ import './index.css';
 export default function Contact() {
     return(
         <section className="contact-container" style={{backgroundImage: `url(${ContactBg})`}}>
-            <div className="container">
+            <h1 className="contact-form-title">CONTACT</h1>
+            <div className="contract-wrapper container">
                 <form>
                     <div className="form-group">
-                        <label>Name</label>
-                        <input className="form-control" type="text" value="name" />
+                        <input className="form-control form__color" type="text" placeholder="name" />
                     </div>
 
                     <div className="form-group">
-                        <label>Email</label>
-                        <input className="form-control" type="text" value="Enter Email" />
+                        <input className="form-control form__color" type="text" placeholder="Enter Email" />
                     </div>
 
                     
                     <div className="form-group">
-                        <label>Message</label>
-                        <textarea className="form-control" type="text" row="5" value="Your Message"></textarea>
+                        <textarea className="form-control form__color" type="text" row="5" placeholder="Your Message"></textarea>
                     </div>
                     
                     <input type="buttone" />

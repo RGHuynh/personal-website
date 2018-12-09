@@ -56,7 +56,7 @@ export default class Hamburger extends Component {
                         </NavItem>
                         <NavItem className="sidebar-nav-item">
                             <a>Contact</a>
-                        </NavItem>''
+                        </NavItem>
                     </ul>
                 </Sidebar>
             </div>
