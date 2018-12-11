@@ -1,4 +1,13 @@
 .footer-container {
-    border: 1px solid black;
+    padding-top: 2rem;
     height: 300px;
+}
+
+.footer-img {
+    height: 64px;
+    margin-top: 24px;
+}
+
+.footer-img-container {
+    display: block;
 }
