@@ -1,4 +1,4 @@
-.project-container {
+.portfolio-container {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,6 +15,6 @@
     font-weight: 600;
 }
 
-.project-title__color {
+.portfolio-title__color {
     color: white;
 }
