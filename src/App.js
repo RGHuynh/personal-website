@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import Experience from './components/Experience';
-import Project from './components/Project';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollReveal from 'scrollreveal';
@@ -12,7 +12,7 @@ class App extends Component {
   componentDidMount() {
     ScrollReveal().reveal('.mastHead')
     ScrollReveal().reveal('.experience-container', {delay: 500})
-    ScrollReveal().reveal('.project-container', {delay: 1000})
+    ScrollReveal().reveal('.portfolio-container', {delay: 1000})
     ScrollReveal().reveal('.contact-container', {delay: 1500})
     ScrollReveal().reveal('.footer-container', {delay: 2000})
   }
@@ -21,7 +21,7 @@ class App extends Component {
         <div className="App">
             <Header />
             <Experience />
-            <Project />
+            <Portfolio />
             <Contact />
             <Footer />
         </div>
