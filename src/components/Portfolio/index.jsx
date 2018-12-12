@@ -1,6 +1,8 @@
 import React from 'react';
 import Project from './Project'
 import BackgroundImage2 from '../../images/background2.svg';
+import TrustRootImage from '../../images/trustroots.svg';
+import RandomRestaurant from '../../images/randomRestaurant.svg';
 import './index.css';
 
 export default function Portfolio() {
@@ -10,11 +12,15 @@ export default function Portfolio() {
                 title="PROJECT" 
                 backgroundStyle={{backgroundImage: `url(${BackgroundImage2})`}}
                 subTitle="Random Restaurant"
-                body="it is"
+                image={RandomRestaurant}
+                body="This web app helps people who doesn't know where to eat to find a place. It's great to use when you're in a big group and needs a place to eat"
             />
             <Project 
+                titleColor={{color: "black"}}
+                title="OPEN SOURCE PROJECT"
                 subTitle="TrustRoot"
-                body="it is"
+                image={TrustRootImage}
+                body="Have a look! Travel anywhere and easily find great people who want to meet you as well. See where other travellers are and help each other out, whether through welcoming them to your home, sharing your stories or becoming friends."
             />
 
         </section>
