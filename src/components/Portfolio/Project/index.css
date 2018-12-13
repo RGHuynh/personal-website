@@ -27,6 +27,11 @@
     margin-bottom: 5rem;
 }
 
+.btn__position:focus {
+    outline: none;
+    box-shadow: none!important;
+}
+
 .portfolio-subTitle {
     color: white;
     margin-top: 1rem;
