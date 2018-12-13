@@ -29,3 +29,13 @@
     z-index: 999;
     left: 015px;
 }
+
+.nav-button {
+    color: white;
+    text-decoration: none !important;
+}
+
+.nav-button:hover {
+    text-decoration: none;
+    color: white;
+}

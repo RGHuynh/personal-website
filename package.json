@@ -17,6 +17,7 @@
     "react-particles-js": "^2.4.2",
     "react-pose": "^4.0.3",
     "react-scripts": "2.0.4",
+    "react-scrollable-anchor": "^0.6.1",
     "scrollreveal": "^4.0.5"
   },
   "scripts": {
