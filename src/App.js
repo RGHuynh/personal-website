@@ -5,6 +5,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollReveal from 'scrollreveal';
+
 import './App.css';
 
 class App extends Component {

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import posed from 'react-pose'
+import Particles from 'react-particles-js';
 import Navigation from '../Navigate';
 import ProfilePic from '../../images/profile.jpeg';
 import Background1 from '../../images/background1.svg';
@@ -42,6 +43,25 @@ export default class Header extends Component {
                                 <h2 className="header-description-title">Full Stack Developer</h2>
                             </div>
                     </div>
+                    <Particles
+                    params={{
+                        "particles": {
+                            "number": {
+                                "value": 20
+                            },
+                            "size": {
+                                "value": 4
+                            }
+                        },
+                        "interactivity": {
+                            "events": {
+                                "onhover": {
+                                    "enable": false,
+                                    "mode": "repulse"
+                                }
+                            }
+                        }
+                    }} />
                 </div>
             </header>
         )
