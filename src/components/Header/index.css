@@ -2,12 +2,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    position: relative;
 }
 
 .portfolio {
     padding-top: 2.5rem;
     padding-bottom: 4.875rem;
     color: white;
+    z-index: 1;
+    position: relative;
 }
 
 .icon {
@@ -30,4 +33,10 @@
     margin-top: .4rem;
     font-size: 20px;
     font-weight: 600;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
