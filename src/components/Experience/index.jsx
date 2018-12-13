@@ -7,7 +7,7 @@ import './index.css';
 
 export default function Experience() {
     return(
-        <section className="experience-container">
+        <section id="experience" className="experience-container">
             <div className="container">
                 <h1 className="experience--position title" >EXPERIENCE</h1>
                     <ContentSection 

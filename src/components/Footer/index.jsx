@@ -5,7 +5,7 @@ import './index.css';
 
 export default function Footer() {
     return(
-        <footer className="footer-container">
+        <footer id="footer" className="footer-container">
             <a className="footer-img-container" href="https://github.com/RGHuynh">
                 <img className="footer-img" src={GithubImg}></img>
             </a>

@@ -4,7 +4,7 @@ import './index.css';
 
 export default function Contact() {
     return(
-        <section className="contact-container" style={{backgroundImage: `url(${ContactBg})`}}>
+        <section id="contact" className="contact-container" style={{backgroundImage: `url(${ContactBg})`}}>
             <h1 className="contact-form-title">CONTACT</h1>
             <div className="contact-wrapper container">
                 <form>

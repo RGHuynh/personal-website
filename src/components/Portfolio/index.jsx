@@ -7,7 +7,7 @@ import './index.css';
 
 export default function Portfolio() {
     return(
-        <section className="portfolio-container" >
+        <section id="portfolio" className="portfolio-container" >
             <Project
                 title="PROJECT" 
                 backgroundStyle={{backgroundImage: `url(${BackgroundImage2})`}}
