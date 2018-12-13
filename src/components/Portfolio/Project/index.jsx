@@ -11,7 +11,6 @@ export default function Project({title, image, subTitle, body, backgroundStyle, 
             <a href={ urlLink } className="btn btn__position btn__size btn__color">
                 View
             </a>
-            
         </div>
     );
 }
