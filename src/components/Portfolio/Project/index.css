@@ -36,3 +36,9 @@
     color: white;
     margin-top: 1rem;
 }
+
+@media (min-width: 576px) {
+    .project-wrapper {
+        display: flex;
+    }
+}
