@@ -12,20 +12,22 @@ export default function Experience() {
             <section className="experience-container">
                 <div className="container">
                     <h1 className="experience--position title" >EXPERIENCE</h1>
-                        <ContentSection 
-                            icon={ReactJsIcon}
-                            title="ReactJS"
-                        />
+                        <div className="contentSection-container">
+                            <ContentSection 
+                                icon={ReactJsIcon}
+                                title="ReactJS"
+                            />
 
-                        <ContentSection 
-                            icon={NodeJsIcon}
-                            title="NodeJS"
-                        />
-                        
-                        <ContentSection
-                            icon={Postgresql}
-                            title="PostgreSQL"
-                        />
+                            <ContentSection 
+                                icon={NodeJsIcon}
+                                title="NodeJS"
+                            />
+                            
+                            <ContentSection
+                                icon={Postgresql}
+                                title="PostgreSQL"
+                            />
+                        </div>
                 </div>
             </section>
         </ScrollableAnchor>
