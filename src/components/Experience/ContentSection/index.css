@@ -8,3 +8,9 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+@media (min-width: 576px) {
+    .exp-wrap {
+        display: inline;
+    }
+}

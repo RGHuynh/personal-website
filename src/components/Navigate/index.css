@@ -3,3 +3,23 @@
     height: 50px;
 }
 
+.nav-list-container {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .nav-list-item {
+        display: inline-block;
+        padding: 16px;
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+    }
+    
+    .nav-list-container {
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        display: block;
+    }
+}

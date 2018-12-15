@@ -5,3 +5,10 @@
 .experience-container {
     padding-bottom: 2.25rem;
 }
+
+@media (min-width: 576px) {
+    .contentSection-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

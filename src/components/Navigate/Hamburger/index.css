@@ -39,3 +39,10 @@
     text-decoration: none;
     color: white;
 }
+
+
+@media (min-width: 576px) {
+    .menu-toggle {
+        display: none;
+    }
+}
