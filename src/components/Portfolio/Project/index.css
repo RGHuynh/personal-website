@@ -40,5 +40,19 @@
 @media (min-width: 576px) {
     .project-wrapper {
         display: flex;
+        justify-content: center;
+    }
+
+    .project-details {
+        margin-left: 3.5rem;
+        width: 300px;
+    }
+
+    .project-image {
+        margin-top: 3rem;
+    }
+    .title {
+        padding-top: 2rem;
+        font-size: 1.5rem;
     }
 }
