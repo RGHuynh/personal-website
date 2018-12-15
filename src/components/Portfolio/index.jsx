@@ -15,7 +15,7 @@ export default function Portfolio() {
                     backgroundStyle={{backgroundImage: `url(${BackgroundImage2})`}}
                     subTitle="Random Restaurant"
                     image={RandomRestaurant}
-                    body="This web app helps people who doesn't know where to eat to find a place. It's great to use when you're in a big group and needs a place to eat"
+                    body="Helps people who doesn't know where to eat to find a place. It's great to use when you're in a big group and needs a place to eat "
                     urlLink="https://random-restaurant46.herokuapp.com/"
                 />
                 <Project 
@@ -23,7 +23,7 @@ export default function Portfolio() {
                     title="OPEN SOURCE PROJECT"
                     subTitle="TrustRoot"
                     image={TrustRootImage}
-                    body="Have a look! Travel anywhere and easily find great people who want to meet you as well. See where other travellers are and help each other out, whether through welcoming them to your home, sharing your stories or becoming friends."
+                    body="Travel anywhere and easily find great people who want to meet you as well. See where other travellers are and help each other out, whether through welcoming them to your home, sharing your stories or becoming friends."
                     urlLink="https://www.trustroots.org/"
                 />
             </section>

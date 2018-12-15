@@ -11,7 +11,7 @@ export default function Contact() {
                 <div className="contact-wrapper container">
                     <form>
                         <div className="form-group">
-                            <input className="form-control form__color" type="text" placeholder="name" />
+                            <input className="form-control form__color" type="text" placeholder="Name" />
                         </div>
 
                         <div className="form-group">
