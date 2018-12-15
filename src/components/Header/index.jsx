@@ -37,7 +37,6 @@ export default class Header extends Component {
                 <div className="container">
                     <div className="portfolio">
                         <Box className="icon" src={ProfilePic} pose={isVisible ? 'visible' : 'hidden'} />
-                        <img ></img>
                             <div className="header-description">
                                 <h1 className="header-description-name">Randall Huynh</h1>
                                 <h2 className="header-description-title">Full Stack Developer</h2>
