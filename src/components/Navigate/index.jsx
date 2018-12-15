@@ -22,6 +22,11 @@ class Navigation extends Component{
       <div >
         <HamburgerStack activeButton={this.state.activeButton}/>
         <nav className="navbar navbar-expand-lg navbar--size">
+          <ul className="nav-list-container">
+            <li className="nav-list-item">Experiences</li>
+            <li className="nav-list-item">Projects</li>
+            <li className="nav-list-item">Contact</li>
+          </ul>
         </nav>
       </div>
     );
