@@ -22,4 +22,12 @@
         padding: 0;
         display: block;
     }
+
+    .navbar--size {
+        position: fixed;
+        height: 4rem;
+        z-index: 998;
+        width: 100%;
+        background-color: rgba(0, 171, 182, 0.89);
+    }
 }

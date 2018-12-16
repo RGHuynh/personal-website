@@ -11,4 +11,12 @@
         display: flex;
         justify-content: space-evenly;
     }
+
+    .experience--position {
+        padding-top: 4rem !important;
+    }
+    
+    .experience-container {
+        padding-bottom: 4rem;
+    }
 }
