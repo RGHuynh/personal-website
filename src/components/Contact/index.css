@@ -46,3 +46,14 @@
     height: 32px;
     font-weight: 600;
 }
+
+.form--textbox {
+    height: 92px !important;
+}
+
+@media (min-width: 576px) {
+    .form-wrapper {
+        width: 450px;
+        margin: auto;
+    }
+}
