@@ -1,12 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './normalize.css';
-import './hamburgers.css';
-import './index.css';
+import './styles/normalize.css';
+import './styles/hamburgers.css';
+import './styles/index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
-serviceWorker.unregister();
